@@ -61,7 +61,7 @@ async def skip(c: Client, m: Message):
                 chat_id,
                 photo=image,
                 reply_markup=InlineKeyboardMarkup(buttons),
-                caption=f"**⥁⁞ تم التخطي الئ المسار الت*\n **⥁⁞ الاسم:** [{op[0]}]({op[1]})\n **⥁⁞الحالة:** `شغال`\n **⥁⁞ صاحب الطلب :** {m.from_user.mention()}}",
+                caption=f"**⥁⁞ تم التخطي الئ المسار الت*\n **⥁⁞ الاسم:** [{op[0]}]({op[1]})\n **⥁⁞الحالة:** `شغال`\n **⥁⁞ صاحب الطلب :** {m.from_user.mention()}",
             )
     else:
         skip = m.text.split(None, 1)[1]
